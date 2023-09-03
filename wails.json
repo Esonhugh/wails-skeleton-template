@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "testing-app",
+  "outputfilename": "test-wails",
+  "frontend:install": "yarn install",
+  "frontend:build": "yarn build",
+  "frontend:dev:watcher": "yarn dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir": "./frontend/src/lib",
+  "author": {
+    "name": "Esonhugh",
+    "email": "esonhughoutside@gmail.com"
+  }
+}

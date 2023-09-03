@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Wails: Production testing-app",
+      "type": "go",
+      "request": "launch",
+      "mode": "exec",
+      "program": "${workspaceFolder}/build/bin/test-wails",
+      "preLaunchTask": "build",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Wails: Debug testing-app",
+      "type": "go",
+      "request": "launch",
+      "mode": "exec",
+      "program": "${workspaceFolder}/build/bin/test-wails",
+      "preLaunchTask": "build debug",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Wails: Dev testing-app",
+      "type": "go",
+      "request": "launch",
+      "mode": "exec",
+      "program": "${workspaceFolder}/build/bin/test-wails",
+      "preLaunchTask": "build dev",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
